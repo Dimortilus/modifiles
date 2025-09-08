@@ -242,7 +242,7 @@ void MainWindow::enableMostInputWidgets(bool enable) {
 	ui->startPushButton->setEnabled(enable);
 }
 
-// Включает почти все интерактивные элементы интерфейса
+// Выключает почти все интерактивные элементы интерфейса
 //  (кроме чекбокса и спинбокса таймера)
 void MainWindow::disableMostInputWidgets() {
 	MainWindow::enableMostInputWidgets(false);
